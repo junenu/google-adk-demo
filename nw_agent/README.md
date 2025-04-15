@@ -81,6 +81,15 @@ Copyright (c) 1986-2024 by Cisco Systems, Inc.
 RT1#
 ```
 
+間違えると
+
+```bash
+user: router1のOSバージョンを教えてください
+[nw_agent]: router1は設定されていないようです。別のデバイス名を指定してください。
+user: rt1のOSバージョンを教えてください
+[nw_agent]: rt1のOSバージョンはCisco IOS Software [IOSXE], Linux Software (X86_64BI_LINUX-ADVENTERPRISEK9-M), Version 17.15.1です。
+```
+
 ## 注意事項
 
 - 本番環境では、パスワードなどの機密情報の取り扱いに十分注意してください。
